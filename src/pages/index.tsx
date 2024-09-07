@@ -2,33 +2,21 @@ import React from 'react';
 import Image from 'next/image';
 import '@/pages/globals.css';
 import BC from '@/pages/bc.jpg';
+import Header from '@/app/header';
 import VOT from '@/pages/vote.webp';
+import sviv from '@/pages/right-arrow-svgrepo-com.svg';
 const HomePage: React.FC = () => {
   return (
     <div >
-      <header>
-        <div>
-          {/* Use Next.js Image component for optimized images */}
-          <Image src={VOT} alt="VoteX Logo" width={50} height={50} />
-          <h1>VoteX</h1>
-        </div>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/auth/signup">Register</a>
-          <a href="/Dashboard">Voting</a>
-          <a href="/News">News</a>
-          <a href="/Results">Results</a>
-          <a href="/Faqs">FAQs</a>
-          <a href="/Profile">My Account</a>
-        </nav>
-      </header>
+      
+      <Header />
 
       <section className="hero">
         <div className="content">
           <div className="slogan">
             <h2>Vote for the Future</h2>
             <p>Vote responsibly to a responsible party.</p>
-            <a href="#" className="btn">Next</a>
+            <a href="/auth/signup" className="btn">Sign Up <Image src={sviv} className="downer" height={20} width={20} alt={' Arrow'}/></a>
           </div>
           <div className="illustration">
             {/* Use Next.js Image component for optimized images */}

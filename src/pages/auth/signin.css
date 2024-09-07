@@ -21,6 +21,11 @@ body, html {
     justify-content: center;
     align-items: center;
     padding-left: 2.5rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-left: 3rem;
   }
   
   .text-center {
@@ -101,5 +106,20 @@ body, html {
   
   .submit-button:hover {
     background-color: #236592;
+  }
+  .ssy{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .wees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 60vw;
+    background-image: url("https://media.istockphoto.com/id/1456829246/vector/democratic-vote-and-elections-banner-human-rights-elections-and-equality.jpg?s=2048x2048&w=is&k=20&c=_mEDXZh1wf_EGLFH_vtQotJrLCZlN30AB1ATSQZVhvc=");
   }
   

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import '@/pages/auth/globals.css';
+import Header from '@/app/header';
 
 export default function Signup() {
   const [name, setName] = useState('');
@@ -51,6 +52,8 @@ export default function Signup() {
   };
 
   return (
+    <div className='ssy'>
+      <Header />
     <div className="signup-form-container">
       <div className="title">Sign Up</div>
       <div className="text-center mb-4">
@@ -136,7 +139,10 @@ export default function Signup() {
         <button className="submit-button" type="submit">
           Sign Up
         </button>
+        <footer>
+          <a href='/auth/signin' className="text-center mt-4 block">Already have an account? Sign in</a>
+        </footer>
       </form>
-    </div>
+    </div></div>
   );
 }

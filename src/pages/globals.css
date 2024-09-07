@@ -121,3 +121,8 @@ align-items: center;
 .big-bot{
     width: 100vw;
       height: 100vh;}
+     .downer{
+        margin-bottom: -0.4em;
+        padding-left: 6px;
+        scale: 1.5;
+      }

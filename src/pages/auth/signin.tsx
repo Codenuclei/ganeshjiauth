@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import '@/pages/auth/signin.css';
+import Header from '@/app/header';
+import Image from 'next/image';
 export default function Signin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -39,6 +41,8 @@ export default function Signin() {
   };
 
   return (
+    <div className='ssy'>
+      <Header />
     <div className="signup-form-container">
     <div className="text-center mb-4">
       <div className="title">Sign In</div>
@@ -69,6 +73,7 @@ export default function Signin() {
       <a href='/auth/signup' className="text-center mt-4 block">Don't have an account? Sign up</a>
       <a href='/auth/forgot-password' className="text-center mt-4 block">Forgot password?</a>
     </form>
-  </div>
+
+   </div></div>
   );
 }

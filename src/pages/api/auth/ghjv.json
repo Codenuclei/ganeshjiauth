@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Alice Johnson",
+        "id": 0,
+        "age": 12,
+        "gender": "Female",
+        "image": "1.avif",
+        "about": "A better candidate for the elections",
+        "votes": 0
+    },
+    {
+        "name": "Bob Smith",
+        "id": 1,
+        "age": 14,
+        "gender": "Male",
+        "image": "2.avif",
+        "about": "An excellent choice for the community",
+        "votes": 0
+    },
+    {
+        "name": "Catherine Lee",
+        "id": 2,
+        "age": 13,
+        "gender": "Female",
+        "image": "3.avif",
+        "about": "A promising young leader",
+        "votes": 0
+    },
+    {
+        "name": "David Brown",
+        "id": 3,
+        "age": 15,
+        "gender": "Male",
+        "image": "4.avif",
+        "about": "Committed to making a difference",
+        "votes": 0
+    },
+    {
+        "name": "Emily Davis",
+        "id": 4,
+        "age": 12,
+        "gender": "Female",
+        "image": "5.avif",
+        "about": "Dedicated to serving the people",
+        "votes": 0
+    }
+]

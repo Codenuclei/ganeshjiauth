@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scale: 0.8; /* Scales the form down */
 }
 
 .text-center {
@@ -104,4 +105,8 @@ body {
 
 .submit-button:hover {
   background-color: #236592;
+}
+.ssy{
+  width: 100vw;
+  height: 100vh;
 }

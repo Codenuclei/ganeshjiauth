@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #2980B9;
+    height: 10%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+header div {
+    display: flex;
+    height: 100%;
+    margin-right: 5%;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+#main {
+    padding: 10px;
+    text-align: center;
+}
+#main iframe {
+    width: 30%;
+    padding: 8px;
+    border-radius: 2rem;
+}
