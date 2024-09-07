@@ -1,0 +1,123 @@
+.illustration {
+    font-size: 24px;
+    opacity: 30%;
+    mix-blend-mode: darken;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+}
+
+header {
+background-color: #2980B9;
+height: 10%;
+color: white;
+padding: 10px;
+text-align: center;
+align-items: center;
+justify-content: left;
+display: flex;
+}
+header div{
+display: flex;
+height: 100%;
+margin-right: 5%;
+}
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+}
+
+.logo h1 {
+font-size: 24px;
+color: #333;
+}
+
+.hero {
+background: linear-gradient(to bottom, #2980B9, #f9f9ff);
+padding: 50px;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+
+.hero .content {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.hero .slogan {
+flex: 1;
+}
+
+.hero h2 {
+font-size: 48px;
+color: #333;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+.hero .btn {
+padding: 10px 20px;
+background-color: #6356f6;
+color: #eff8ce;
+text-decoration: none;
+border-radius: 25px;
+}
+
+.hero .illustration {
+flex: 1;
+}
+
+.hero .illustration img {
+max-width: 100%;
+border-radius:20px ;
+
+}
+
+footer {
+background-color: #f4f6f1;
+padding: 20px;
+text-align: center;
+}
+
+footer ul {
+list-style: none;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+footer ul li {
+margin: 0 20px;
+}
+
+footer ul li a {
+text-decoration: none;
+color: #333;
+}
+#logo{
+display: flex;
+height: 100%;
+}
+#logo h1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.big-bot{
+    width: 100vw;
+      height: 100vh;}
