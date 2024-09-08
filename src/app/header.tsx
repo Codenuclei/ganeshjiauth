@@ -12,11 +12,11 @@ export default function Header() {
         <nav>
           <a href="/">Home</a>
           <a href="/auth/signup">Register</a>
-          <a href="/Dashboard">Voting</a>
-          <a href="auth/news">News</a>
+          <a href="/auth/das">Voting</a>
+          <a href="/auth/news">News</a>
           <a href="/Results">Results</a>
-          <a href="/Faqs">FAQs</a>
-          <a href="/Profile">My Account</a>
+          <a href="/auth/faq">FAQs</a>
+          <a href="/auth/profile">My Account</a>
         </nav>
       </header>
         </div>
