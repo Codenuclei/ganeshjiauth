@@ -14,7 +14,7 @@ export default function Header() {
           <a href="/auth/signup">Register</a>
           <a href="/auth/das">Voting</a>
           <a href="/auth/news">News</a>
-          <a href="/Results">Results</a>
+          <a href="/auth/res">Results</a>
           <a href="/auth/faq">FAQs</a>
           <a href="/auth/profile">My Account</a>
         </nav>
