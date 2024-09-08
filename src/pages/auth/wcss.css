@@ -1,88 +1,97 @@
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
+/* Container for overall layout */
+.container {
+    padding: 30px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
 }
-header {
-    background-color: #2980B9;
-    height: 10%;
+
+/* Header styling */
+.header {
+    background-color: #007bff;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    align-items: center;
-    justify-content: left;
-    display: flex;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
-header div {
-    display: flex;
-    height: 100%;
-    margin-right: 5%;
-}
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-.banner {
-    background-color: lightblue;
-    padding: 15px;
-    text-align: center;
-}
-.icons {
+
+/* Main content area styling */
+.mainContent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px 0;
+    gap: 20px;
 }
-.icon {
-    text-align: center;
-    margin: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    width: 20%;
-    aspect-ratio: 1;
+
+/* Card styling */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
 }
-.learn {
-    font-size: x-small;
-}
-.vote {
-    background-color: rgb(0, 79, 122);
-    height: 15%;
-    width: 30%;
-    border-radius: 1rem;
-    margin-bottom: 8px;
+
+/* Card header styling */
+.cardHeader {
+    background: #007bff;
     color: white;
+    padding: 15px;
+    font-size: 1.25rem;
+    text-align: center;
+    border-bottom: 2px solid #0056b3;
 }
-.vote:hover {
-    background-color: rgb(2, 56, 85);
+
+/* Card body styling */
+.cardBody {
+    padding: 20px;
 }
-.overlay {
-    position: absolute;
-    z-index: -5;
-    background-color: aqua;
-    border-radius: 2rem;
-    height: 70%;
-    width: 30%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
+
+/* Card item styling */
+.cardItem {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
 }
-.overlayContent {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* Remove bottom border from last card item */
+.cardItem:last-child {
+    border-bottom: none;
 }
-.dimmer {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
-    top: 0;
-    left: 0;
+
+/* Title within card */
+.cardTitle {
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+}
+
+/* Value within card */
+.cardValue {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    color: #28a745;
+}
+
+/* Activity text styling */
+.cardActivity {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* User info styling */
+.cardUserInfo {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background: #007bff;
+    color: white;
+    border-radius: 10px;
 }
